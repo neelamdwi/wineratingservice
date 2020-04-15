@@ -6,7 +6,7 @@ import pickle
 import sys
 
 #load data
-df = pd.read_csv("..\winequality-red.csv")
+df = pd.read_csv("..\winequality-white.csv")
 
 #split data
 X = df['fixed_acidity'].values.reshape(-1, 1)
